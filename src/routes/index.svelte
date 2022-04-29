@@ -1,5 +1,3 @@
-
-
 <div class="index">
 	<h2>Welcome</h2>
 	<p>
@@ -7,8 +5,6 @@
 		praesentium, voluptatibus laudantium pariatur tenetur qui atque nobis odio facilis ipsum placeat
 		explicabo quia accusantium esse fugit quidem dolores.
 	</p>
-	<a href="/guides">View Guides</a>
-	<a href="/about">About</a>
 </div>
 
 <style>

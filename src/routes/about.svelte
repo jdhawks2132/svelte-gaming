@@ -8,8 +8,6 @@
 		possimus, accusamus blanditiis itaque reprehenderit! Ipsam cumque recusandae rerum soluta
 		voluptatum quae tempora quas sunt dolore accusamus!
 	</p>
-	<a href="/guides">View Guides</a>
-	<a href="/">Home</a>
 </div>
 
 <style>
