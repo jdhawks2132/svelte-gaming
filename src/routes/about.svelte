@@ -1,8 +1,6 @@
 <script>
-	import Title from '$lib/Title.svelte';
 </script>
 
-<Title title="Svelte Gaming: About" />
 <div class="about">
 	<h2>About Us</h2>
 	<p>
