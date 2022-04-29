@@ -1,8 +1,33 @@
+<script context="module">
+	export async function load({ fetch }) {
+		const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+		const guides = await res.json();
+
+		if (res.ok) {
+			return {
+				props: {
+					guides
+				}
+			};
+		}
+		return {
+			status: res.status,
+			error: new Error('Could not fetch guides')
+		};
+	}
+</script>
+
+<script>
+	export let guides;
+</script>
+
 <div class="guides">
 	<ul>
-		<li><a href="/guides/elden-ring">Elden Ring</a></li>
-		<li><a href="/guides/dark-souls-ii">Dark Souls II</a></li>
-		<li><a href="/guides/dark-souls-iii">Dark Souls III</a></li>
+		{#each guides as guide}
+			<li>
+				<a href="/">{guide.title}</a>
+			</li>
+		{/each}
 	</ul>
 </div>
 
